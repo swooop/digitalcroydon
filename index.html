@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Hack the Bank</title>
+		<title>Digital Croydon</title>
 
-		<meta name="description" content="Mailjet for Developers">
+		<meta name="description" content="Open Sourcing your docs">
 		<meta name="author" content="Toby Sims">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
 		<!-- <link rel="stylesheet" href="css/print/pdf.css"> -->
 
 		<!-- For syntax highlighting -->
@@ -50,7 +50,7 @@
 						<small>Developer Evangelist / Beard - <a href="mailto:tsims@mailjet.com">tsims@mailjet.com</a> / <a href="http://twitter.com/4thfloor_monkey">@4thfloor_monkey</a></small>
 					</p>
 					<p>
-						Find the slides at : <a href="http://mjhackthebank.herokuapp.com">mjhackthebank.herokuapp.com</a>
+						Find the slides at : <a href="http://mjhackthebank.herokuapp.com">digitalcroydon.herokuapp.com</a>
 					</p>
 				</section>
 
@@ -64,131 +64,196 @@
 
 <!-- slide 3 -->
 				<section>
-					<a href="http://mailjet.com"><img src="../images/Mailjet_logo.png" style="border: none;" alt="developer logo"/></a>
-						<br />
-						<div>
-							<ul>
-								<li><p>From the ground up email solution</p></li>
-								<li><p>Transactional Email</p></li>
-								<li><p>Newsletter campaigns</p></li>
-								<li><p>Analytics</p></li>
-								<li><p>A nice RESTful API</p></li>
-
-							</ul>
-						</div>
-
+					<h2>The Rise and Rise of the API</h2>
+					<p>Think of the APIs we use all the time (well if you're me anyway</p>
+					<ul>
+						<li>Foursqaure via Citymapper</li>
+						<li>Google Maps</li>
+						<li>eBay</li>
+					</ul>
 				</section>
+
 <!-- slide4  -->
 				<section>
-					<h3>Why Mailjet?</h3>
-					<ul>
-						<li class="fragment fade-in">Deliverabilty</li>
-						<li class="fragment fade-in">One API for all the features</li>
-						<li class="fragment fade-in">Price</li>
-						<li class="fragment fade-in">Flexibility</li>
-					</ul>
-
+					<h2>We've got one too</h2>
+						<p>It's the core of what we do</p>
+						<p>Everything is built on top of it.</p>
 				</section>
+
 <!-- slide 6 -->
 				<section>	
-					<h2>Integrates with lots of cool stuff via:</h2>
-					<img src="../images/zapier-logo.png" />
-					<img src="../images/elasticio.png" />
-
+					<h2>Why is it so important</h2>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<p>Anybody integrated Skype with anything recently?</p>
 				</section>
 
 <!-- slide 7  -->
 				<section>
-					<h2>Sign up at <a href="http://mailjet.com">Mailjet.com</a></h2>
-					<p>Grab your API key... ~>>></p>
-
+					<h2>Developer Experience</h2>
+					<p>Getting developers to integrate or use your product because they want to.</p>
+					<p>First step... 'onboarding'</p>
 				</section>
+
 <!-- slide 8 -->
 				<section>	
-					<h3>As soon as you log in, you should be on the dashboard page go here</h3>
-					<img src="../images/gohere.png" alt="key location" />
-
+					<h2>The ideal onboarding experience should be:</h2>
+					<ul>
+						<li>Quick</li>
+						<li>Easy</li>
+						<li>Repeatable with various skill levels and languages</li>
+					</ul>
 				</section>
+
  <!-- slide 9 -->
 				<section>
-					<h2>Like magic...</h2>
-					<img src="../images/keys.png" alt="key page" />
+					<h2>What helps?</h2>
+					<ul>
+						<li>Code libraries / plugins</li>
+						<li>Sample code or apps</li>
+					</ul>
 				</section>
 
 <!-- slide 10	 -->
 				<section>
-					<h3>Getting started with the API</h3>
-					<p>Simple to add contacts</p>
-					<pre><code data-trim>
-curl -X POST --user "$MJ_APIKEY_PUBLIC:$MJ_APIKEY_PRIVATE" \
-	https://api.mailjet.com/v3/REST/contact \
-	-H "Content-Type: application/json" \
-	-d '{"Email":"johnsmith@example.com"}'
-					</code></pre>
+					<h2>What obstacles are there to overcome?</h2>
+					<p>Technical Debt from changing systems</p>
+					<p>Whether the API fits the product and has all the needed functionality</p>
 				</section>
 
 <!-- slide 11 -->
 				<section>
-					<h3>Simple sending</h3>
-					<pre>
-						<code data-trim>
-curl -X POST --user "$MJ_APIKEY_PUBLIC:$MJ_APIKEY_PRIVATE" \
-    https://api.mailjet.com/v3/send/message \
-    -F from= "Count Mailjet >count.mailjet@example.com>" \
-    -F to=mr.mailjet@example.com \
-    -F subject='Hello World!' \
-    -F text='Greetings from Mailjet.'
-						</code>
-					</pre>
+					<h2>So Documentation is important</h2>
+					<img src="../images/thinkofkitteh.jpg">
 				</section>
 <!-- slide 12 -->
 				<section>
-					<h3>Write less code</h3>
-					<img src="../images/gitninja.jpg" alt="octocat ninja" width="500px"/>
-					<h4><a href="http://github.com/mailjet">github.com/mailjet</a></h4>
+					<p>Difficult documentation can sink a good product</p>
+					<p>Good documentation and a good product make a <span>GREAT</span> product</p>
+					<img src="../images/stripe_white.png">
+
 				</section>
-<!-- slide 13 -->
+
+<!-- slide 13 -->	
 				<section>
-					<h4>API Developer Docs:</h4>
-					<h3><a href="http://dev.mailjet.com">DEV.MAILJET.COM</a></h3>
+					<h2>Open Sourcing your documentation</h2>
+					<p>Because everyone loves open source</p>
 				</section>
-<!-- slide 14 -->
+
+<!-- slide 14 -->	
 				<section>
-					<h3>You can also have fun with the Parse API</h3>
-					<p>Set up a target webhook via the API</p>
-					<pre><code data-trim>
-curl -X POST --user "$MJ_APIKEY_PUBLIC:$MJ_APIKEY_PRIVATE" \
-        http://api.mailjet.com/v3/REST/parseroute \
-        -d '{"URL":"http://your-domain/webhook"}' \
-        -H "Content-Type: application/json"
-					</code></pre>
+					<h2>What did we look at?</h2>
 				</section>
-<!-- slide 15 -->
+
+<!-- slide 15 -->	
 				<section>
-					<h5>This POST request will return JSON with the email address users can send to, to activate the webhook</h5>
-					<p>When they email it....</p>
+					<h2>Jekyll</h2>
+						<img src="../images/jekyll.png" width="500px">
 				</section>
-<!-- slide 16 -->
+
 				<section>
-					<img src="../images/parse.jpg" alt="parse all of the things meme" />
+					<h2>Thoughts:</h2>
+				</section>
+
+<!-- slide 16 -->	
+				<section>
+					<h2>Swagger</h2>
+						<img src="../images/swagger.png" width="500px">
 
 				</section>
 <!-- slide 17 -->
+
 				<section>
-					<h3>Happy hacking</h3>
+					<h2>Thoughts:</h2>
 				</section>
 
 <!-- slide 18 -->
+
+				<section>
+					<h2>Readme.io</h2>
+					<img src="../images/readmeio.png" width="500px">
+				</section>
+
+<!-- slide 19 -->
+
+				<section>
+					<h2>Thoughts:</h2>
+				</section>
+
+<!-- slide 20 -->
+				<section>
+					<h2>We went with Slate</h2>
+					<img src="../images/slate.png" width="500px">
+				</section>
+
+<!-- slide 21 -->
+
+				<section>
+					<h2>It's great!</h2>
+					<ul>
+						<li>Simple layout</li>
+						<li>Quick to generate</li>
+						<li>Adaptable</li>
+					</ul>
+				</section>
+
+<!-- slide 22				 -->
+				<section>
+					<h2>How does our documentation work?</h2>
+					<ul>
+						<li>metadata.json</li>
+					</ul>
+				</section>
+
+<!-- slide 23 -->
+				<section>
+					<h2>What are our aims?</h2>
+					<ul>
+						<li>Repeatability (if that's a word...)</li>
+						<li>Speed of updating with the Product Team</li>
+						<li>Ease of developer adoption</li>
+					</ul>
+				</section>
+
+<!-- slide 24		 -->
+
+				<section>
+					<h2>Disadvantages?</h2>
+					<p>Documenting your documentation</p>
+					<img src="../images/inception.jpg" alt="inception">
+					<p>Time with the community just on documentation</p>
+				</section>
+
+<!-- slide 25 -->
+				<section>
+					<h2>Advantages</h2>
+					<p>Time with the community!</p>
+					<ul>
+						<li>Documentation less likely to stagnate</li>
+						<li>git diff is a wonderful thing</li>
+						<li>Integrate update alerts on platforms like Slack</li>
+					</ul>
+				</section>
+
+<!-- slide 26 -->
+
+				<section>
+					<h2>Conclusion</h2>
+				</section>
+
 				<section>
 					<h3>Free stuff for you!</h3>
 					<br />
-					<code><h2>MJLONDON2015</h2></code>
+					<code><h2>DIGITALCROYDON2015</h2></code>
 					<br />
 					<p>3 months free Bronze Premium</p>
 				</section>
-<!-- slide 19 -->
+<!-- slide 27 -->
 				<section>
-					<h3>To the pub! No wait, hack!</h3>
+					<h3>To the pub!</h3>
 					<img src="../images/doge.gif" />
 				</section>
 			</div>
